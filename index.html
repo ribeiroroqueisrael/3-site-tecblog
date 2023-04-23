@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TecBlog - O seu Blog de tecnologia</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Tecblog - Projeto construído com html e css, um blog sobre tecnologia, criado para fins didáticos."
+    />
+    <meta
+      name="keywords"
+      content="html, css, blog, tecnologia, programação, desenvolvimento web, projetos iniciantes"
+    />
+    <meta name="author" content="Israel Roque" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <h1 class="logo">Tec<span class="logo--white">Blog</span></h1>
+      </div>
+      <nav class="header__menu">
+        <a class="menu__link" href="index.html">Home</a>
+        <a class="menu__link" href="jogos.html">Jogos</a>
+        <a class="menu__link" href="celulares.html">Celulares</a>
+        <a class="menu__link" href="informatica.html">Informática</a>
+        <a class="menu__link" href="eletronicos.html">Eletrônicos</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="posts">
+        <!-- abertura postagem -->
+        <article class="posts__post">
+          <h2 class="post__title">Titulo da postagem 1</h2>
+          <span class="post__date">postado 20 março 2022</span>
+          <img width="620px" src="imagens/imagem1.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus
+            vehicula
+          </p>
+          <a class="post__link" href="">Leia mais</a>
+        </article>
+        <!--// fechamento postagem -->
+
+        <!-- abertura postagem -->
+        <article class="posts__post">
+          <h2 class="post__title">Titulo da postagem 2</h2>
+          <span class="post__date">postado 10 março 2022</span>
+          <img width="620px" src="imagens/imagem2.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus
+            vehicula
+          </p>
+          <a href="">Leia mais</a>
+        </article>
+        <!--// fechamento postagem -->
+      </section>
+      <aside class="sidebar">
+        <div class="sidebar__content">
+          <h3 class="sidebar__content__title">Postagens recentes</h3>
+
+          <div class="sidebar__post">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="">Leia mais</a>
+          </div>
+
+          <div class="sidebar__post">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="">Leia mais</a>
+          </div>
+        </div>
+
+        <div class="sidebar__content">
+          <h3 class="sidebar__content__title">Categorias</h3>
+
+          <a href="">Jogos</a><br />
+          <a href="">Celulares</a><br />
+          <a href="">Informática</a><br />
+          <a href="">Eletrônicos</a><br />
+          <a href="">Jogos</a><br />
+        </div>
+      </aside>
+
+      <div class="footer">Todos os direitos reservados</div>
+    </main>
+  </body>
+</html>
